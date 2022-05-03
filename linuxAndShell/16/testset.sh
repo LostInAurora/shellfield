@@ -1,9 +1,9 @@
 #!/bin/bash - 
 #===============================================================================
 #
-#          FILE: test5b.sh
+#          FILE: testset.sh
 # 
-#         USAGE: ./test5b.sh 
+#         USAGE: ./testset.sh 
 # 
 #   DESCRIPTION: 
 # 
@@ -13,16 +13,12 @@
 #         NOTES: ---
 #        AUTHOR: Penghao (None), penghshi@anxx.com
 #  ORGANIZATION: anxx Shanghai
-#       CREATED: 04/30/2022 17:54:42
+#       CREATED: 05/03/2022 22:35:30
 #      REVISION:  ---
 #===============================================================================
 
 set -o nounset                              # Treat unset variables as an error
-if fds;then
-    echo a
-elif gg;then
-    echo b
-else
-    echo c
-fi
+set -e
+ls dfsf
+echo 1
 
